@@ -1,5 +1,5 @@
 export default function App() {
-  const initialStudents = [
+  const students = [
     { name: "Alice", age: 17, grade: "A" },
     { name: "Bob", age: 18, grade: "B" },
     { name: "Charlie", age: 16, grade: "C" },
