@@ -1,8 +1,4 @@
-import { useState } from "react";
-import FilterButtons from "./components/FilterButtons";
-import StudentList from "./components/StudentList";
-
-function App() {
+export default function App() {
   const initialStudents = [
     { name: "Alice", age: 17, grade: "A" },
     { name: "Bob", age: 18, grade: "B" },
@@ -34,5 +30,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
