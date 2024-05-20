@@ -1,5 +1,9 @@
-export default function App() {
-  const students = [
+import { useState } from "react";
+import FilterButtons from "./components/FilterButtons";
+import StudentList from "./components/StudentList";
+
+function App() {
+  const initialStudents = [
     { name: "Alice", age: 17, grade: "A" },
     { name: "Bob", age: 18, grade: "B" },
     { name: "Charlie", age: 16, grade: "C" },
@@ -30,3 +34,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
